@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  dockerwebsample:
+    image: dockerwebsample
+    build:
+      context: ./dockerwebsample
+      dockerfile: Dockerfile
